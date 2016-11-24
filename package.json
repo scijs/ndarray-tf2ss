@@ -1,0 +1,41 @@
+{
+  "name": "ndarray-tf2ss",
+  "version": "0.0.1",
+  "description": "Converts a transfer function to a state-space representation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha test/**.js",
+    "lint": "./node_modules/.bin/semistandard index.js | ./node_modules/.bin/snazzy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tab58/ndarray-tf2ss.git"
+  },
+  "keywords": [
+    "transfer",
+    "function",
+    "state",
+    "space"
+  ],
+  "author": "Tim Bright",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tab58/ndarray-tf2ss/issues"
+  },
+  "homepage": "https://github.com/tab58/ndarray-tf2ss#readme",
+  "semistandard": {
+    "global": [
+      "describe",
+      "it"
+    ]
+  },
+  "devDependencies": {
+    "semistandard": "^9.1.0",
+    "snazzy": "^5.0.0"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "ndarray": "^1.0.18"
+  }
+}
