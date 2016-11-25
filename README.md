@@ -15,11 +15,7 @@ x = [1, an-1, ..., a1, a0];
 [A, B, C, D] = require('ndarray-tf2ss')(y, x);
 ```
 
-The `y` and `x` arguments need to be ndarrays. Each row in the input arguments defines a separate function to be calculated.
-
-* Single input-single output (SISO) systems can be defined with y having a single row and x having a single row.
-* Single input-multiple output (SIMO) systems can be defined with y having multiple rows and x having a single row.
-* Multiple input-multiple output (MIMO) systems can be defined with y having multiple rows and x having multiple rows.
+The `y` and `x` arguments need to be ndarrays. Each row in the input arguments defines a separate function to be calculated. Single input-single output (SISO) systems can be defined with y having a single row and x having a single row.
 
 ## Description
 
